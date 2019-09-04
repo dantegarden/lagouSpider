@@ -1,11 +1,9 @@
-package com.example.demo.lagou.easypoi;
+package com.example.demo.easypoi;
 
 import cn.afterturn.easypoi.excel.annotation.Excel;
-import com.example.demo.lagou.model.RouteTransit;
 import lombok.Data;
 
 import java.io.Serializable;
-import java.util.List;
 
 @Data
 public class OutputJobRoute implements Serializable {

@@ -1,7 +1,6 @@
-package com.example.demo.lagou.model;
+package com.example.demo.model;
 
 import lombok.Data;
-import org.springframework.util.CollectionUtils;
 
 import java.util.List;
 

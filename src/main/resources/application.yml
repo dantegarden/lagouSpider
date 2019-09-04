@@ -2,7 +2,7 @@ server:
   port: 8082
 spring:
   application:
-    name: lagou-spider
+    name: spider-spider
   data:
     mongodb:
       database: lagou_spider
@@ -11,9 +11,9 @@ spring:
 
 gaode:
   # 高德app-key
-  app-key: your-key
+  app-key: 2ffcebd1de4b5f2d4a3072313ef8e3de
   # 自己家的经纬度，通过高德地图查，最多六位小数
-  coordirate: 116.487506,39.818880
+  coordirate: 116.407506,39.813480
   # 所在城市
   city: 北京
   # 需求岗位

@@ -1,7 +1,6 @@
-package com.example.demo.lagou.model;
+package com.example.demo.model;
 
 import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.annotation.JSONField;
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.example.demo.lagou.utils;
+package com.example.demo.utils;
 
 import com.google.common.collect.ImmutableMap;
 import org.apache.commons.lang3.StringUtils;

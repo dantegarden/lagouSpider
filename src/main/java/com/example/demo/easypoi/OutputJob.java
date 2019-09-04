@@ -1,4 +1,4 @@
-package com.example.demo.lagou.easypoi;
+package com.example.demo.easypoi;
 
 import cn.afterturn.easypoi.excel.annotation.Excel;
 import cn.afterturn.easypoi.excel.annotation.ExcelEntity;
@@ -7,7 +7,6 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
 
 @Data
 public class OutputJob implements Serializable {

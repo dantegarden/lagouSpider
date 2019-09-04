@@ -1,4 +1,4 @@
-package com.example.demo.lagou.properties;
+package com.example.demo.properties;
 
 
 import lombok.Data;

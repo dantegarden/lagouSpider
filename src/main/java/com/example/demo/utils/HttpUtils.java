@@ -1,12 +1,5 @@
-package com.example.demo.lagou.utils;
+package com.example.demo.utils;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
-import com.example.demo.lagou.model.PositionInfo;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.CollectionUtils;
 
@@ -16,11 +9,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
 
 /**
  * HTTP POST和GET处理工具类
@@ -52,6 +43,7 @@ public class HttpUtils {
             connection.setConnectTimeout(3000);
             /**建立实际的连接**/
             connection.connect();
+
             /**定义 BufferedReader输入流来读取URL的响应**/
             in = new BufferedReader(new InputStreamReader(connection.getInputStream(),"UTF-8"));
             String line;

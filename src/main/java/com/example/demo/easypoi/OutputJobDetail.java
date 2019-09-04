@@ -1,4 +1,4 @@
-package com.example.demo.lagou.easypoi;
+package com.example.demo.easypoi;
 
 import cn.afterturn.easypoi.excel.annotation.Excel;
 import lombok.Data;
