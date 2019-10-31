@@ -1,5 +1,6 @@
 package com.example.demo.model;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -36,6 +37,7 @@ public class PositionInfo {
     @Id
     private Long positionId;
     private String positionAdvantage;
+    @JSONField(format="yyyy-MM-dd")
     private Date createTime;
     private Integer score;
     private Integer approve;

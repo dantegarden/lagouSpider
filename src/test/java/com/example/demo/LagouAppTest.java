@@ -29,7 +29,7 @@ public class LagouAppTest {
                 "gx", "全职",  //只抓全职
                 "yx", "15k-25k" //薪资范围
         );
-        lagouRunner.startCrawl(searchParams, 1, 10);
+        //lagouRunner.startCrawl(searchParams, 1, 20);
         exporter.exportExcel();
     }
 }
